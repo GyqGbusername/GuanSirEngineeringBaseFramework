@@ -1,0 +1,21 @@
+pod 'AFNetworking', '~> 3.1.0'       # 网络请求
+pod 'ASIHTTPRequest', '~> 1.8.2'
+
+pod 'SDWebImage', '~> 3.7.5'        #图片异步
+pod 'FMDB', '~> 2.6.2'                 #数据库
+
+pod 'SVProgressHUD', '~> 2.0.3'   #指示器
+pod 'LCProgressHUD', '~> 1.0.6'
+
+pod 'Masonry', '~> 1.0.0'              #代码约束
+
+pod 'MJRefresh', '~> 3.1.0'          #加载刷新
+pod 'KYJellyPullToRefresh', '~> 1.1.0'
+
+pod 'MJExtension', '~> 3.0.10'     #数据模型
+pod 'SBJson', '~> 4.0.2'
+
+pod 'EGOCache', '~> 2.1.3'          #缓存
+
+pod 'YYKit', '~> 1.0.5'                #UI效果
+pod 'AwesomeMenu', '~> 1.0.0'
