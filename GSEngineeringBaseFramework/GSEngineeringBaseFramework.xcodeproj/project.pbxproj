@@ -15,6 +15,21 @@
 		586720AB1CDB2494005B4A7A /* GSEngineeringBaseFrameworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720AA1CDB2494005B4A7A /* GSEngineeringBaseFrameworkUITests.m */; };
 		586720BB1CDB2575005B4A7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720BA1CDB2575005B4A7A /* AppDelegate.m */; };
 		586720C61CDB4093005B4A7A /* NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720C51CDB4093005B4A7A /* NullSafe.m */; };
+		586720DC1CDC3EE4005B4A7A /* GSBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720DB1CDC3EE4005B4A7A /* GSBaseModel.m */; };
+		586720DF1CDC3F06005B4A7A /* GSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720DE1CDC3F06005B4A7A /* GSBaseViewController.m */; };
+		586720E21CDC3F20005B4A7A /* GSBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720E11CDC3F20005B4A7A /* GSBaseTableViewCell.m */; };
+		586720E51CDC3FCB005B4A7A /* GSBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720E41CDC3FCB005B4A7A /* GSBaseTabBarController.m */; };
+		586720E81CDC3FF8005B4A7A /* GSBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720E71CDC3FF8005B4A7A /* GSBaseView.m */; };
+		586720EB1CDC450B005B4A7A /* GSBaseWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720EA1CDC450B005B4A7A /* GSBaseWebView.m */; };
+		586720EF1CDC49D3005B4A7A /* GSUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720EE1CDC49D3005B4A7A /* GSUserInfoModel.m */; };
+		586720F41CDC4BE4005B4A7A /* JYJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720F11CDC4BE4005B4A7A /* JYJSON.m */; };
+		586720F51CDC4BE4005B4A7A /* MJYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720F31CDC4BE4005B4A7A /* MJYUtils.m */; };
+		586720F81CDC5A95005B4A7A /* FontInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720F71CDC5A95005B4A7A /* FontInfo.m */; };
+		586720FC1CDC69C8005B4A7A /* GSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720FA1CDC69C8005B4A7A /* GSLoginViewController.m */; };
+		586720FD1CDC69C8005B4A7A /* GSLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 586720FB1CDC69C8005B4A7A /* GSLoginViewController.xib */; };
+		586721021CDC6AFB005B4A7A /* GSGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586721001CDC6AFB005B4A7A /* GSGuideViewController.m */; };
+		586721031CDC6AFB005B4A7A /* GSGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 586721011CDC6AFB005B4A7A /* GSGuideViewController.xib */; };
+		586721061CDC6C7C005B4A7A /* GSBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586721051CDC6C7C005B4A7A /* GSBaseNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +73,36 @@
 		586720D11CDB45C3005B4A7A /* MacroURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroURL.h; sourceTree = "<group>"; };
 		586720D21CDB46EF005B4A7A /* HeaderImported.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderImported.h; sourceTree = "<group>"; };
 		586720D31CDB4721005B4A7A /* MacroTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroTools.h; sourceTree = "<group>"; };
+		586720D41CDB9528005B4A7A /* MacroSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroSize.h; sourceTree = "<group>"; };
+		586720DA1CDC3EE4005B4A7A /* GSBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSBaseModel.h; sourceTree = "<group>"; };
+		586720DB1CDC3EE4005B4A7A /* GSBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSBaseModel.m; sourceTree = "<group>"; };
+		586720DD1CDC3F06005B4A7A /* GSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSBaseViewController.h; sourceTree = "<group>"; };
+		586720DE1CDC3F06005B4A7A /* GSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSBaseViewController.m; sourceTree = "<group>"; };
+		586720E01CDC3F20005B4A7A /* GSBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSBaseTableViewCell.h; sourceTree = "<group>"; };
+		586720E11CDC3F20005B4A7A /* GSBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSBaseTableViewCell.m; sourceTree = "<group>"; };
+		586720E31CDC3FCB005B4A7A /* GSBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSBaseTabBarController.h; sourceTree = "<group>"; };
+		586720E41CDC3FCB005B4A7A /* GSBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSBaseTabBarController.m; sourceTree = "<group>"; };
+		586720E61CDC3FF8005B4A7A /* GSBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSBaseView.h; sourceTree = "<group>"; };
+		586720E71CDC3FF8005B4A7A /* GSBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSBaseView.m; sourceTree = "<group>"; };
+		586720E91CDC450B005B4A7A /* GSBaseWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSBaseWebView.h; sourceTree = "<group>"; };
+		586720EA1CDC450B005B4A7A /* GSBaseWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSBaseWebView.m; sourceTree = "<group>"; };
+		586720ED1CDC49D3005B4A7A /* GSUserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSUserInfoModel.h; sourceTree = "<group>"; };
+		586720EE1CDC49D3005B4A7A /* GSUserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSUserInfoModel.m; sourceTree = "<group>"; };
+		586720F01CDC4BE4005B4A7A /* JYJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJSON.h; sourceTree = "<group>"; };
+		586720F11CDC4BE4005B4A7A /* JYJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJSON.m; sourceTree = "<group>"; };
+		586720F21CDC4BE4005B4A7A /* MJYUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJYUtils.h; sourceTree = "<group>"; };
+		586720F31CDC4BE4005B4A7A /* MJYUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJYUtils.m; sourceTree = "<group>"; };
+		586720F61CDC5A95005B4A7A /* FontInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontInfo.h; sourceTree = "<group>"; };
+		586720F71CDC5A95005B4A7A /* FontInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontInfo.m; sourceTree = "<group>"; };
+		586720F91CDC69C8005B4A7A /* GSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSLoginViewController.h; sourceTree = "<group>"; };
+		586720FA1CDC69C8005B4A7A /* GSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSLoginViewController.m; sourceTree = "<group>"; };
+		586720FB1CDC69C8005B4A7A /* GSLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSLoginViewController.xib; sourceTree = "<group>"; };
+		586720FF1CDC6AFB005B4A7A /* GSGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSGuideViewController.h; sourceTree = "<group>"; };
+		586721001CDC6AFB005B4A7A /* GSGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSGuideViewController.m; sourceTree = "<group>"; };
+		586721011CDC6AFB005B4A7A /* GSGuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSGuideViewController.xib; sourceTree = "<group>"; };
+		586721041CDC6C7C005B4A7A /* GSBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSBaseNavigationController.h; sourceTree = "<group>"; };
+		586721051CDC6C7C005B4A7A /* GSBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSBaseNavigationController.m; sourceTree = "<group>"; };
+		586721071CDC89F3005B4A7A /* MacroUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroUD.h; sourceTree = "<group>"; };
 		D3E5567397A3C1A29F14A86B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -182,6 +227,8 @@
 		586720BD1CDB2734005B4A7A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				586720FE1CDC6AE8005B4A7A /* GuideViewController */,
+				586720D51CDC3E7B005B4A7A /* LoginViewController */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -189,6 +236,7 @@
 		586720BE1CDB2734005B4A7A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				586720EC1CDC49BE005B4A7A /* UserInfoModel */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -227,6 +275,7 @@
 		586720C31CDB2744005B4A7A /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				586720D61CDC3EAB005B4A7A /* Base */,
 				586720CA1CDB422B005B4A7A /* Macro */,
 			);
 			path = BaseClass;
@@ -245,12 +294,14 @@
 		586720CA1CDB422B005B4A7A /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				586721071CDC89F3005B4A7A /* MacroUD.h */,
 				586720CE1CDB43DF005B4A7A /* MacroTime.h */,
 				586720CF1CDB443A005B4A7A /* MacroStatus.h */,
 				586720D01CDB459C005B4A7A /* MacroColor.h */,
 				586720D11CDB45C3005B4A7A /* MacroURL.h */,
 				586720D21CDB46EF005B4A7A /* HeaderImported.h */,
 				586720D31CDB4721005B4A7A /* MacroTools.h */,
+				586720D41CDB9528005B4A7A /* MacroSize.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -258,6 +309,10 @@
 		586720CC1CDB425E005B4A7A /* TPLib */ = {
 			isa = PBXGroup;
 			children = (
+				586720F01CDC4BE4005B4A7A /* JYJSON.h */,
+				586720F11CDC4BE4005B4A7A /* JYJSON.m */,
+				586720F21CDC4BE4005B4A7A /* MJYUtils.h */,
+				586720F31CDC4BE4005B4A7A /* MJYUtils.m */,
 			);
 			path = TPLib;
 			sourceTree = "<group>";
@@ -265,8 +320,60 @@
 		586720CD1CDB4264005B4A7A /* GSLib */ = {
 			isa = PBXGroup;
 			children = (
+				586720F61CDC5A95005B4A7A /* FontInfo.h */,
+				586720F71CDC5A95005B4A7A /* FontInfo.m */,
 			);
 			path = GSLib;
+			sourceTree = "<group>";
+		};
+		586720D51CDC3E7B005B4A7A /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				586720F91CDC69C8005B4A7A /* GSLoginViewController.h */,
+				586720FA1CDC69C8005B4A7A /* GSLoginViewController.m */,
+				586720FB1CDC69C8005B4A7A /* GSLoginViewController.xib */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		586720D61CDC3EAB005B4A7A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				586720DA1CDC3EE4005B4A7A /* GSBaseModel.h */,
+				586720DB1CDC3EE4005B4A7A /* GSBaseModel.m */,
+				586720DD1CDC3F06005B4A7A /* GSBaseViewController.h */,
+				586720DE1CDC3F06005B4A7A /* GSBaseViewController.m */,
+				586720E01CDC3F20005B4A7A /* GSBaseTableViewCell.h */,
+				586720E11CDC3F20005B4A7A /* GSBaseTableViewCell.m */,
+				586720E31CDC3FCB005B4A7A /* GSBaseTabBarController.h */,
+				586720E41CDC3FCB005B4A7A /* GSBaseTabBarController.m */,
+				586721041CDC6C7C005B4A7A /* GSBaseNavigationController.h */,
+				586721051CDC6C7C005B4A7A /* GSBaseNavigationController.m */,
+				586720E91CDC450B005B4A7A /* GSBaseWebView.h */,
+				586720EA1CDC450B005B4A7A /* GSBaseWebView.m */,
+				586720E61CDC3FF8005B4A7A /* GSBaseView.h */,
+				586720E71CDC3FF8005B4A7A /* GSBaseView.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		586720EC1CDC49BE005B4A7A /* UserInfoModel */ = {
+			isa = PBXGroup;
+			children = (
+				586720ED1CDC49D3005B4A7A /* GSUserInfoModel.h */,
+				586720EE1CDC49D3005B4A7A /* GSUserInfoModel.m */,
+			);
+			path = UserInfoModel;
+			sourceTree = "<group>";
+		};
+		586720FE1CDC6AE8005B4A7A /* GuideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				586720FF1CDC6AFB005B4A7A /* GSGuideViewController.h */,
+				586721001CDC6AFB005B4A7A /* GSGuideViewController.m */,
+				586721011CDC6AFB005B4A7A /* GSGuideViewController.xib */,
+			);
+			path = GuideViewController;
 			sourceTree = "<group>";
 		};
 		DC7292E447FADC36B8B26631 /* Frameworks */ = {
@@ -387,6 +494,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				586720FD1CDC69C8005B4A7A /* GSLoginViewController.xib in Resources */,
+				586721031CDC6AFB005B4A7A /* GSGuideViewController.xib in Resources */,
 				586720921CDB2494005B4A7A /* Assets.xcassets in Resources */,
 				586720951CDB2494005B4A7A /* LaunchScreen.storyboard in Resources */,
 			);
@@ -461,9 +570,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				586721061CDC6C7C005B4A7A /* GSBaseNavigationController.m in Sources */,
+				586720E21CDC3F20005B4A7A /* GSBaseTableViewCell.m in Sources */,
 				586720BB1CDB2575005B4A7A /* AppDelegate.m in Sources */,
 				5867208D1CDB2493005B4A7A /* main.m in Sources */,
+				586720DC1CDC3EE4005B4A7A /* GSBaseModel.m in Sources */,
+				586720DF1CDC3F06005B4A7A /* GSBaseViewController.m in Sources */,
 				586720C61CDB4093005B4A7A /* NullSafe.m in Sources */,
+				586720F51CDC4BE4005B4A7A /* MJYUtils.m in Sources */,
+				586720F81CDC5A95005B4A7A /* FontInfo.m in Sources */,
+				586720FC1CDC69C8005B4A7A /* GSLoginViewController.m in Sources */,
+				586720F41CDC4BE4005B4A7A /* JYJSON.m in Sources */,
+				586720EF1CDC49D3005B4A7A /* GSUserInfoModel.m in Sources */,
+				586720E51CDC3FCB005B4A7A /* GSBaseTabBarController.m in Sources */,
+				586720EB1CDC450B005B4A7A /* GSBaseWebView.m in Sources */,
+				586720E81CDC3FF8005B4A7A /* GSBaseView.m in Sources */,
+				586721021CDC6AFB005B4A7A /* GSGuideViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

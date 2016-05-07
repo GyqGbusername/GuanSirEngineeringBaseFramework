@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "GSBaseTabBarController.h"
+#import "GSBaseNavigationController.h"
+#import "GSLoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,8 +23,26 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    
+    if ([[MJYUtils mjy_fuckNULL:[gs_NSUserDefaults stringForKey:gs_UD_token]] isEqualToString:@"1"]) {
+        self.window.rootViewController = [GSBaseTabBarController sharedGSBaseTabBarController];
+    } else {
+        self.window.rootViewController = [GSLoginViewController sharedGSLoginViewController];
+    }
+    [self initProperty];
     return YES;
 }
+
+/**
+ *  初始化应用程序的属性
+ */
+- (void) initProperty
+{
+    self.httpManager = [AFHTTPSessionManager manager];
+    self.httpManager.responseSerializer = [AFHTTPResponseSerializer serializer];
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
