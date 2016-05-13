@@ -37,3 +37,5 @@ pod 'YYKeyboardManager', '~> 1.0.1'
 pod 'YYWaterflowLayout', '~> 1.0.0'
 
 pod 'YYWebImage', '~> 1.0.3'
+
+pod 'JPush', '~> 2.1.6'  #极光推送

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B4F576168C97AEC654D68777'
+               BlueprintIdentifier = 'BCBA268984079640D6079396'
                BlueprintName = 'YYWaterflowLayout'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libYYWaterflowLayout.a'>

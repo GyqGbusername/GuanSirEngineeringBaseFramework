@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3AF1A326DB357217AA84329E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 331040E3EE5DFA68B13DE97F /* libPods.a */; };
-		580A88751CE4838500D8A08C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F55D011CE42B4A0062C4C9 /* CoreFoundation.framework */; };
-		580A887A1CE4845A00D8A08C /* jpush-ios-2.1.6.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 580A88781CE4845A00D8A08C /* jpush-ios-2.1.6.a */; };
 		581D35C61CE40F0A00796B37 /* NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 581D35C51CE40F0A00796B37 /* NullSafe.m */; };
 		5867208D1CDB2493005B4A7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5867208C1CDB2493005B4A7A /* main.m */; };
 		586720921CDB2494005B4A7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586720911CDB2494005B4A7A /* Assets.xcassets */; };
@@ -32,14 +30,6 @@
 		586721021CDC6AFB005B4A7A /* GSGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586721001CDC6AFB005B4A7A /* GSGuideViewController.m */; };
 		586721031CDC6AFB005B4A7A /* GSGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 586721011CDC6AFB005B4A7A /* GSGuideViewController.xib */; };
 		586721061CDC6C7C005B4A7A /* GSBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586721051CDC6C7C005B4A7A /* GSBaseNavigationController.m */; };
-		58F55CFC1CE42B0F0062C4C9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F55CFB1CE42B0F0062C4C9 /* Security.framework */; };
-		58F55CFE1CE42B200062C4C9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F55CFD1CE42B200062C4C9 /* SystemConfiguration.framework */; };
-		58F55D001CE42B390062C4C9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F55CFF1CE42B390062C4C9 /* CoreTelephony.framework */; };
-		58F55D041CE42B580062C4C9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F55D031CE42B580062C4C9 /* CFNetwork.framework */; };
-		58F55D061CE42B650062C4C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F55D051CE42B650062C4C9 /* UIKit.framework */; };
-		58F55D081CE42B6D0062C4C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F55D071CE42B6D0062C4C9 /* Foundation.framework */; };
-		58F55D0A1CE42B7C0062C4C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F55D091CE42B7C0062C4C9 /* CoreGraphics.framework */; };
-		58F55D0C1CE42B8D0062C4C9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F55D0B1CE42B8D0062C4C9 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,8 +52,6 @@
 /* Begin PBXFileReference section */
 		16B869417F296862EDA96820 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		331040E3EE5DFA68B13DE97F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		580A88781CE4845A00D8A08C /* jpush-ios-2.1.6.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-2.1.6.a"; sourceTree = "<group>"; };
-		580A88791CE4845A00D8A08C /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
 		581D35C51CE40F0A00796B37 /* NullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NullSafe.m; sourceTree = "<group>"; };
 		582D0D681CE5617800A34538 /* MacroImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroImage.h; sourceTree = "<group>"; };
 		586720881CDB2493005B4A7A /* GSEngineeringBaseFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSEngineeringBaseFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,16 +122,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				580A88751CE4838500D8A08C /* CoreFoundation.framework in Frameworks */,
-				58F55D0C1CE42B8D0062C4C9 /* libz.tbd in Frameworks */,
-				58F55D0A1CE42B7C0062C4C9 /* CoreGraphics.framework in Frameworks */,
-				58F55D081CE42B6D0062C4C9 /* Foundation.framework in Frameworks */,
-				58F55D061CE42B650062C4C9 /* UIKit.framework in Frameworks */,
-				58F55D041CE42B580062C4C9 /* CFNetwork.framework in Frameworks */,
-				580A887A1CE4845A00D8A08C /* jpush-ios-2.1.6.a in Frameworks */,
-				58F55D001CE42B390062C4C9 /* CoreTelephony.framework in Frameworks */,
-				58F55CFE1CE42B200062C4C9 /* SystemConfiguration.framework in Frameworks */,
-				58F55CFC1CE42B0F0062C4C9 /* Security.framework in Frameworks */,
 				3AF1A326DB357217AA84329E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,23 +150,6 @@
 				16B869417F296862EDA96820 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		580A88761CE4845A00D8A08C /* JPUSH */ = {
-			isa = PBXGroup;
-			children = (
-				580A88771CE4845A00D8A08C /* lib */,
-			);
-			path = JPUSH;
-			sourceTree = "<group>";
-		};
-		580A88771CE4845A00D8A08C /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				580A88781CE4845A00D8A08C /* jpush-ios-2.1.6.a */,
-				580A88791CE4845A00D8A08C /* JPUSHService.h */,
-			);
-			path = lib;
 			sourceTree = "<group>";
 		};
 		5867207F1CDB2493005B4A7A = {
@@ -360,7 +321,6 @@
 		586720CC1CDB425E005B4A7A /* TPLib */ = {
 			isa = PBXGroup;
 			children = (
-				580A88761CE4845A00D8A08C /* JPUSH */,
 				581D35C51CE40F0A00796B37 /* NullSafe.m */,
 				586720F01CDC4BE4005B4A7A /* JYJSON.h */,
 				586720F11CDC4BE4005B4A7A /* JYJSON.m */,
@@ -798,6 +758,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/GSEngineeringBaseFramework/Tools/TPLib/JPlib",
 					"$(PROJECT_DIR)/GSEngineeringBaseFramework/Tools/TPLib/JPUSH/lib",
+					"$(PROJECT_DIR)/GSEngineeringBaseFramework/Tools/TPLib/JPlib/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = gs.www.firstw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -820,6 +781,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/GSEngineeringBaseFramework/Tools/TPLib/JPlib",
 					"$(PROJECT_DIR)/GSEngineeringBaseFramework/Tools/TPLib/JPUSH/lib",
+					"$(PROJECT_DIR)/GSEngineeringBaseFramework/Tools/TPLib/JPlib/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = gs.www.firstw;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -34,7 +34,10 @@
 #import <YYAsyncLayer.h>           // 画线
 
 
-
+/**
+ *  THFunction
+ */
+#import <JPUSHService.h>
 
 
 
