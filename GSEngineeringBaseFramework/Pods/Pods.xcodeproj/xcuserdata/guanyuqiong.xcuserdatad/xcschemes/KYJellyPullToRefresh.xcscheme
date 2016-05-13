@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '927F570A9AA8E4B7029C89AB'
+               BlueprintIdentifier = 'F19934D840010BD61FD24C26'
                BlueprintName = 'KYJellyPullToRefresh'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libKYJellyPullToRefresh.a'>

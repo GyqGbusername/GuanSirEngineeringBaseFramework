@@ -126,11 +126,6 @@
  */
 + (NSString*) mjy_uuid;
 
-/**
- *  读取JSON信息列表
- */
-+ (NSMutableArray *) mjy_JSONAddressInfos;
-
 
 
 

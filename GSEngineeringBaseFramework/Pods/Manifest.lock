@@ -41,13 +41,24 @@ PODS:
   - MJRefresh (3.1.0)
   - Reachability (3.2)
   - SBJson (4.0.2)
-  - SDWebImage (3.7.5):
-    - SDWebImage/Core (= 3.7.5)
-  - SDWebImage/Core (3.7.5)
-  - SVProgressHUD (2.0.3)
-  - YYKit (1.0.5):
-    - YYKit/no-arc (= 1.0.5)
-  - YYKit/no-arc (1.0.5)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - YYAsyncLayer (1.0)
+  - YYCache (1.0.3)
+  - YYCategories (1.0.2):
+    - YYCategories/no-arc (= 1.0.2)
+  - YYCategories/no-arc (1.0.2)
+  - YYImage (1.0.1):
+    - YYImage/Core (= 1.0.1)
+  - YYImage/Core (1.0.1)
+  - YYKeyboardManager (1.0.1)
+  - YYModel (1.0.3)
+  - YYText (1.0.5)
+  - YYWaterflowLayout (1.0.0)
+  - YYWebImage (1.0.3):
+    - YYCache
+    - YYImage
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
@@ -62,8 +73,14 @@ DEPENDENCIES:
   - MJRefresh (~> 3.1.0)
   - SBJson (~> 4.0.2)
   - SDWebImage (~> 3.7.5)
-  - SVProgressHUD (~> 2.0.3)
-  - YYKit (~> 1.0.5)
+  - YYAsyncLayer (~> 1.0)
+  - YYCache (~> 1.0.3)
+  - YYCategories (~> 1.0.2)
+  - YYKeyboardManager (~> 1.0.1)
+  - YYModel (~> 1.0.3)
+  - YYText (~> 1.0.5)
+  - YYWaterflowLayout (~> 1.0.0)
+  - YYWebImage (~> 1.0.3)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
@@ -79,8 +96,15 @@ SPEC CHECKSUMS:
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SBJson: c18691cc18375b14664ff0fec841f8c4faef1934
-  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
-  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
-  YYKit: f2654fe525de2283648db957bddb37ddd8e06549
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  YYAsyncLayer: df6b01ebc695c5f6b4c15dd5c23fa3e081eb25c0
+  YYCache: 282f35b5b0990833d0b7a06d864a87141a021da2
+  YYCategories: 7319e4ba4f4d4dbcec0094abaab540e98f04a65f
+  YYImage: b41b45bc5f32bfcdf67bdfb9c09da9e9832357c0
+  YYKeyboardManager: ff53d2e80d1808567a7f004028bd200d9469a89f
+  YYModel: 63142c2f07c5c8c9d1c261689cf3827ea6ab2886
+  YYText: ac09660c9ccd9b817f409a20caa6f5587444d2ae
+  YYWaterflowLayout: 2d575ed8aabcd3ef545c99b8657c56ba175784ff
+  YYWebImage: 8da75a611fd0d2e0f58a273f9ca0bc731614cb0d
 
 COCOAPODS: 0.39.0

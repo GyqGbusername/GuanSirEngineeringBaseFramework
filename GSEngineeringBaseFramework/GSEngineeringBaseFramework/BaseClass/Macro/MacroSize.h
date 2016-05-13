@@ -25,6 +25,6 @@
 
 #define gs_Screen_Height      ([UIScreen mainScreen].bounds.size.height)
 #define gs_Screen_Width       ([UIScreen mainScreen].bounds.size.width)
-#define gs_Screen_Frame       (CGRectMake(0, 0 ,gs_Screen_Width, gs_Screen_Height))
+#define gs_Screen_Frame      (CGRectMake(0, 0 ,gs_Screen_Width, gs_Screen_Height))
 
 #endif /* MacroSize_h */

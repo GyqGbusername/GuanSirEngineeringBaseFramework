@@ -8,19 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		3AF1A326DB357217AA84329E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 331040E3EE5DFA68B13DE97F /* libPods.a */; };
+		580A88751CE4838500D8A08C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F55D011CE42B4A0062C4C9 /* CoreFoundation.framework */; };
+		580A887A1CE4845A00D8A08C /* jpush-ios-2.1.6.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 580A88781CE4845A00D8A08C /* jpush-ios-2.1.6.a */; };
+		581D35C61CE40F0A00796B37 /* NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 581D35C51CE40F0A00796B37 /* NullSafe.m */; };
 		5867208D1CDB2493005B4A7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5867208C1CDB2493005B4A7A /* main.m */; };
 		586720921CDB2494005B4A7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586720911CDB2494005B4A7A /* Assets.xcassets */; };
 		586720951CDB2494005B4A7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586720931CDB2494005B4A7A /* LaunchScreen.storyboard */; };
 		586720A01CDB2494005B4A7A /* GSEngineeringBaseFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5867209F1CDB2494005B4A7A /* GSEngineeringBaseFrameworkTests.m */; };
 		586720AB1CDB2494005B4A7A /* GSEngineeringBaseFrameworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720AA1CDB2494005B4A7A /* GSEngineeringBaseFrameworkUITests.m */; };
 		586720BB1CDB2575005B4A7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720BA1CDB2575005B4A7A /* AppDelegate.m */; };
-		586720C61CDB4093005B4A7A /* NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720C51CDB4093005B4A7A /* NullSafe.m */; };
 		586720DC1CDC3EE4005B4A7A /* GSBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720DB1CDC3EE4005B4A7A /* GSBaseModel.m */; };
 		586720DF1CDC3F06005B4A7A /* GSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720DE1CDC3F06005B4A7A /* GSBaseViewController.m */; };
 		586720E21CDC3F20005B4A7A /* GSBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720E11CDC3F20005B4A7A /* GSBaseTableViewCell.m */; };
 		586720E51CDC3FCB005B4A7A /* GSBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720E41CDC3FCB005B4A7A /* GSBaseTabBarController.m */; };
 		586720E81CDC3FF8005B4A7A /* GSBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720E71CDC3FF8005B4A7A /* GSBaseView.m */; };
-		586720EB1CDC450B005B4A7A /* GSBaseWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720EA1CDC450B005B4A7A /* GSBaseWebView.m */; };
+		586720EB1CDC450B005B4A7A /* GSBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720EA1CDC450B005B4A7A /* GSBaseWebViewController.m */; };
 		586720EF1CDC49D3005B4A7A /* GSUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720EE1CDC49D3005B4A7A /* GSUserInfoModel.m */; };
 		586720F41CDC4BE4005B4A7A /* JYJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720F11CDC4BE4005B4A7A /* JYJSON.m */; };
 		586720F51CDC4BE4005B4A7A /* MJYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 586720F31CDC4BE4005B4A7A /* MJYUtils.m */; };
@@ -30,6 +32,14 @@
 		586721021CDC6AFB005B4A7A /* GSGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586721001CDC6AFB005B4A7A /* GSGuideViewController.m */; };
 		586721031CDC6AFB005B4A7A /* GSGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 586721011CDC6AFB005B4A7A /* GSGuideViewController.xib */; };
 		586721061CDC6C7C005B4A7A /* GSBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586721051CDC6C7C005B4A7A /* GSBaseNavigationController.m */; };
+		58F55CFC1CE42B0F0062C4C9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F55CFB1CE42B0F0062C4C9 /* Security.framework */; };
+		58F55CFE1CE42B200062C4C9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F55CFD1CE42B200062C4C9 /* SystemConfiguration.framework */; };
+		58F55D001CE42B390062C4C9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F55CFF1CE42B390062C4C9 /* CoreTelephony.framework */; };
+		58F55D041CE42B580062C4C9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F55D031CE42B580062C4C9 /* CFNetwork.framework */; };
+		58F55D061CE42B650062C4C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F55D051CE42B650062C4C9 /* UIKit.framework */; };
+		58F55D081CE42B6D0062C4C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F55D071CE42B6D0062C4C9 /* Foundation.framework */; };
+		58F55D0A1CE42B7C0062C4C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F55D091CE42B7C0062C4C9 /* CoreGraphics.framework */; };
+		58F55D0C1CE42B8D0062C4C9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F55D0B1CE42B8D0062C4C9 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +62,10 @@
 /* Begin PBXFileReference section */
 		16B869417F296862EDA96820 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		331040E3EE5DFA68B13DE97F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		580A88781CE4845A00D8A08C /* jpush-ios-2.1.6.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-2.1.6.a"; sourceTree = "<group>"; };
+		580A88791CE4845A00D8A08C /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		581D35C51CE40F0A00796B37 /* NullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NullSafe.m; sourceTree = "<group>"; };
+		582D0D681CE5617800A34538 /* MacroImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroImage.h; sourceTree = "<group>"; };
 		586720881CDB2493005B4A7A /* GSEngineeringBaseFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSEngineeringBaseFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5867208C1CDB2493005B4A7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		586720911CDB2494005B4A7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -65,7 +79,6 @@
 		586720AC1CDB2494005B4A7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		586720B91CDB2575005B4A7A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		586720BA1CDB2575005B4A7A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		586720C51CDB4093005B4A7A /* NullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NullSafe.m; sourceTree = "<group>"; };
 		586720C91CDB416A005B4A7A /* BaseHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseHeader.pch; sourceTree = "<group>"; };
 		586720CE1CDB43DF005B4A7A /* MacroTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroTime.h; sourceTree = "<group>"; };
 		586720CF1CDB443A005B4A7A /* MacroStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroStatus.h; sourceTree = "<group>"; };
@@ -84,8 +97,8 @@
 		586720E41CDC3FCB005B4A7A /* GSBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSBaseTabBarController.m; sourceTree = "<group>"; };
 		586720E61CDC3FF8005B4A7A /* GSBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSBaseView.h; sourceTree = "<group>"; };
 		586720E71CDC3FF8005B4A7A /* GSBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSBaseView.m; sourceTree = "<group>"; };
-		586720E91CDC450B005B4A7A /* GSBaseWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSBaseWebView.h; sourceTree = "<group>"; };
-		586720EA1CDC450B005B4A7A /* GSBaseWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSBaseWebView.m; sourceTree = "<group>"; };
+		586720E91CDC450B005B4A7A /* GSBaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSBaseWebViewController.h; sourceTree = "<group>"; };
+		586720EA1CDC450B005B4A7A /* GSBaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSBaseWebViewController.m; sourceTree = "<group>"; };
 		586720ED1CDC49D3005B4A7A /* GSUserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSUserInfoModel.h; sourceTree = "<group>"; };
 		586720EE1CDC49D3005B4A7A /* GSUserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSUserInfoModel.m; sourceTree = "<group>"; };
 		586720F01CDC4BE4005B4A7A /* JYJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJSON.h; sourceTree = "<group>"; };
@@ -103,6 +116,16 @@
 		586721041CDC6C7C005B4A7A /* GSBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSBaseNavigationController.h; sourceTree = "<group>"; };
 		586721051CDC6C7C005B4A7A /* GSBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSBaseNavigationController.m; sourceTree = "<group>"; };
 		586721071CDC89F3005B4A7A /* MacroUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroUD.h; sourceTree = "<group>"; };
+		58F55CFB1CE42B0F0062C4C9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		58F55CFD1CE42B200062C4C9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		58F55CFF1CE42B390062C4C9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		58F55D011CE42B4A0062C4C9 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		58F55D031CE42B580062C4C9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		58F55D051CE42B650062C4C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		58F55D071CE42B6D0062C4C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		58F55D091CE42B7C0062C4C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		58F55D0B1CE42B8D0062C4C9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		58F55D0D1CE443AA0062C4C9 /* MacroKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroKey.h; sourceTree = "<group>"; };
 		D3E5567397A3C1A29F14A86B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +134,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				580A88751CE4838500D8A08C /* CoreFoundation.framework in Frameworks */,
+				58F55D0C1CE42B8D0062C4C9 /* libz.tbd in Frameworks */,
+				58F55D0A1CE42B7C0062C4C9 /* CoreGraphics.framework in Frameworks */,
+				58F55D081CE42B6D0062C4C9 /* Foundation.framework in Frameworks */,
+				58F55D061CE42B650062C4C9 /* UIKit.framework in Frameworks */,
+				58F55D041CE42B580062C4C9 /* CFNetwork.framework in Frameworks */,
+				580A887A1CE4845A00D8A08C /* jpush-ios-2.1.6.a in Frameworks */,
+				58F55D001CE42B390062C4C9 /* CoreTelephony.framework in Frameworks */,
+				58F55CFE1CE42B200062C4C9 /* SystemConfiguration.framework in Frameworks */,
+				58F55CFC1CE42B0F0062C4C9 /* Security.framework in Frameworks */,
 				3AF1A326DB357217AA84329E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +172,23 @@
 				16B869417F296862EDA96820 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		580A88761CE4845A00D8A08C /* JPUSH */ = {
+			isa = PBXGroup;
+			children = (
+				580A88771CE4845A00D8A08C /* lib */,
+			);
+			path = JPUSH;
+			sourceTree = "<group>";
+		};
+		580A88771CE4845A00D8A08C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				580A88781CE4845A00D8A08C /* jpush-ios-2.1.6.a */,
+				580A88791CE4845A00D8A08C /* JPUSHService.h */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 		5867207F1CDB2493005B4A7A = {
@@ -286,7 +336,6 @@
 			children = (
 				586720CD1CDB4264005B4A7A /* GSLib */,
 				586720CC1CDB425E005B4A7A /* TPLib */,
-				586720C51CDB4093005B4A7A /* NullSafe.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -295,6 +344,7 @@
 			isa = PBXGroup;
 			children = (
 				586721071CDC89F3005B4A7A /* MacroUD.h */,
+				58F55D0D1CE443AA0062C4C9 /* MacroKey.h */,
 				586720CE1CDB43DF005B4A7A /* MacroTime.h */,
 				586720CF1CDB443A005B4A7A /* MacroStatus.h */,
 				586720D01CDB459C005B4A7A /* MacroColor.h */,
@@ -302,6 +352,7 @@
 				586720D21CDB46EF005B4A7A /* HeaderImported.h */,
 				586720D31CDB4721005B4A7A /* MacroTools.h */,
 				586720D41CDB9528005B4A7A /* MacroSize.h */,
+				582D0D681CE5617800A34538 /* MacroImage.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -309,6 +360,8 @@
 		586720CC1CDB425E005B4A7A /* TPLib */ = {
 			isa = PBXGroup;
 			children = (
+				580A88761CE4845A00D8A08C /* JPUSH */,
+				581D35C51CE40F0A00796B37 /* NullSafe.m */,
 				586720F01CDC4BE4005B4A7A /* JYJSON.h */,
 				586720F11CDC4BE4005B4A7A /* JYJSON.m */,
 				586720F21CDC4BE4005B4A7A /* MJYUtils.h */,
@@ -349,8 +402,8 @@
 				586720E41CDC3FCB005B4A7A /* GSBaseTabBarController.m */,
 				586721041CDC6C7C005B4A7A /* GSBaseNavigationController.h */,
 				586721051CDC6C7C005B4A7A /* GSBaseNavigationController.m */,
-				586720E91CDC450B005B4A7A /* GSBaseWebView.h */,
-				586720EA1CDC450B005B4A7A /* GSBaseWebView.m */,
+				586720E91CDC450B005B4A7A /* GSBaseWebViewController.h */,
+				586720EA1CDC450B005B4A7A /* GSBaseWebViewController.m */,
 				586720E61CDC3FF8005B4A7A /* GSBaseView.h */,
 				586720E71CDC3FF8005B4A7A /* GSBaseView.m */,
 			);
@@ -379,6 +432,15 @@
 		DC7292E447FADC36B8B26631 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				58F55D0B1CE42B8D0062C4C9 /* libz.tbd */,
+				58F55D091CE42B7C0062C4C9 /* CoreGraphics.framework */,
+				58F55D071CE42B6D0062C4C9 /* Foundation.framework */,
+				58F55D051CE42B650062C4C9 /* UIKit.framework */,
+				58F55D031CE42B580062C4C9 /* CFNetwork.framework */,
+				58F55D011CE42B4A0062C4C9 /* CoreFoundation.framework */,
+				58F55CFF1CE42B390062C4C9 /* CoreTelephony.framework */,
+				58F55CFD1CE42B200062C4C9 /* SystemConfiguration.framework */,
+				58F55CFB1CE42B0F0062C4C9 /* Security.framework */,
 				331040E3EE5DFA68B13DE97F /* libPods.a */,
 			);
 			name = Frameworks;
@@ -455,7 +517,12 @@
 				TargetAttributes = {
 					586720871CDB2493005B4A7A = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 4L865A2454;
+						DevelopmentTeam = FVDU9W7A7S;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					5867209A1CDB2494005B4A7A = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -576,16 +643,16 @@
 				5867208D1CDB2493005B4A7A /* main.m in Sources */,
 				586720DC1CDC3EE4005B4A7A /* GSBaseModel.m in Sources */,
 				586720DF1CDC3F06005B4A7A /* GSBaseViewController.m in Sources */,
-				586720C61CDB4093005B4A7A /* NullSafe.m in Sources */,
 				586720F51CDC4BE4005B4A7A /* MJYUtils.m in Sources */,
 				586720F81CDC5A95005B4A7A /* FontInfo.m in Sources */,
 				586720FC1CDC69C8005B4A7A /* GSLoginViewController.m in Sources */,
 				586720F41CDC4BE4005B4A7A /* JYJSON.m in Sources */,
 				586720EF1CDC49D3005B4A7A /* GSUserInfoModel.m in Sources */,
 				586720E51CDC3FCB005B4A7A /* GSBaseTabBarController.m in Sources */,
-				586720EB1CDC450B005B4A7A /* GSBaseWebView.m in Sources */,
+				586720EB1CDC450B005B4A7A /* GSBaseWebViewController.m in Sources */,
 				586720E81CDC3FF8005B4A7A /* GSBaseView.m in Sources */,
 				586721021CDC6AFB005B4A7A /* GSGuideViewController.m in Sources */,
+				581D35C61CE40F0A00796B37 /* NullSafe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -721,11 +788,20 @@
 			baseConfigurationReference = D3E5567397A3C1A29F14A86B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = GSEngineeringBaseFramework/BaseHeader.pch;
 				INFOPLIST_FILE = GSEngineeringBaseFramework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GS.GSEngineeringBaseFramework;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GSEngineeringBaseFramework/Tools/TPLib/JPlib",
+					"$(PROJECT_DIR)/GSEngineeringBaseFramework/Tools/TPLib/JPUSH/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gs.www.firstw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -734,11 +810,20 @@
 			baseConfigurationReference = 16B869417F296862EDA96820 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = GSEngineeringBaseFramework/BaseHeader.pch;
 				INFOPLIST_FILE = GSEngineeringBaseFramework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GS.GSEngineeringBaseFramework;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GSEngineeringBaseFramework/Tools/TPLib/JPlib",
+					"$(PROJECT_DIR)/GSEngineeringBaseFramework/Tools/TPLib/JPUSH/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gs.www.firstw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

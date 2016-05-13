@@ -93,6 +93,7 @@ CGSizeEqualToSize(CGSizeMake(1080, 1920),                                   \
  *  使用图片名获得图片，适用于中小图（tableview等）
  *  这个方法会将图片内存放在cache里，如果调用大图过多会导致内存占用过多
  */
+
 #define gs_LoadNormalImage(file) [UIImage imageNamed:file]
 
 

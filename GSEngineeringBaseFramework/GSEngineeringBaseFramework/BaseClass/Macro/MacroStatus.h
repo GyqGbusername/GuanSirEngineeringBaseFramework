@@ -31,7 +31,7 @@
  *完成类型
  */
 #define gs_Success_Load               @"加载完成"
-
+#define gs_Success_Login               @"登录成功"
 
 /*
  *错误类型

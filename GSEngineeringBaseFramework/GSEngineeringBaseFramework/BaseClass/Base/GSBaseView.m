@@ -10,4 +10,18 @@
 
 @implementation GSBaseView
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        
+    }
+    return self;
+}
+
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    
+}
+
 @end

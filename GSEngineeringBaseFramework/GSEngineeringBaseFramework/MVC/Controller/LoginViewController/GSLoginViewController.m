@@ -31,7 +31,6 @@ static GSLoginViewController *sharedGSLoginViewController = nil;
 
 
 
-
 - (void)initUI {
     
 }
@@ -45,7 +44,11 @@ static GSLoginViewController *sharedGSLoginViewController = nil;
  * 登录
  */
 - (void)dataHandles {
-    [SVProgressHUD showWithStatus:gs_Status_Load];
+    [LCProgressHUD showLoading:gs_Status_Login];
+    if ([MJYUtils mjy_checkTel:@"123213123"]) {
+        [MJYUtils mjy_checkPassWord:@"...."];
+    }
+    
     
     NSString *urlStr = [NSString stringWithFormat:@"%@%@", gs_BaseURL, gs_url_Auth_StoreLoginByPwd];
     
@@ -55,6 +58,7 @@ static GSLoginViewController *sharedGSLoginViewController = nil;
                                 };
     
     [ApplicationDelegate.httpManager POST:urlStr parameters:paramDict progress:^(NSProgress * _Nonnull uploadProgress) {
+        
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         //http请求状态
         if (task.state == NSURLSessionTaskStateCompleted) {
@@ -64,16 +68,16 @@ static GSLoginViewController *sharedGSLoginViewController = nil;
                 //成功返回,获取用户信息
                 [self getUserInfo];
             } else {
-                [SVProgressHUD showErrorWithStatus:jsonDic[@"Message"]];
+                [LCProgressHUD showFailure:jsonDic[@"Message"]];
             }
             
         } else {
-            [SVProgressHUD showErrorWithStatus:gs_Error_Network];
+            [LCProgressHUD showFailure:gs_Error_Network];
         }
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         //请求异常
-        [SVProgressHUD showErrorWithStatus:gs_Error_Network];
+        [LCProgressHUD showFailure:gs_Error_Network];
     }];
 }
 
@@ -84,7 +88,7 @@ static GSLoginViewController *sharedGSLoginViewController = nil;
 
 - (void) getUserInfo
 {
-    [SVProgressHUD showWithStatus:gs_Status_Load];
+//    [SVProgressHUD showWithStatus:gs_Status_Load];
     
     NSString *urlStr = [NSString stringWithFormat:@"%@%@",gs_BaseURL,gs_url_Auth_StoreByMobile];
     
@@ -109,18 +113,19 @@ static GSLoginViewController *sharedGSLoginViewController = nil;
                 [gs_NSUserDefaults setObject:_pwd.text forKey:gs_UD_password];
                 [gs_NSUserDefaults setObject:@"1" forKey:gs_UD_token];
                 [gs_NSUserDefaults synchronize];
-                [SVProgressHUD showSuccessWithStatus:@"登陆成功"];
+                [LCProgressHUD showSuccess:gs_Success_Login];
+//                [SVProgressHUD showSuccessWithStatus:@"登陆成功"];
             } else {
-                [SVProgressHUD showErrorWithStatus:jsonDic[@"Message"]];
+                 [LCProgressHUD showFailure:jsonDic[@"Message"]];
             }
             
         } else {
-            [SVProgressHUD showErrorWithStatus:gs_Error_Network];
+            [LCProgressHUD showFailure:gs_Error_Network];
         }
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         //请求异常
-        [SVProgressHUD showErrorWithStatus:gs_Error_Network];
+       [LCProgressHUD showFailure:gs_Error_Network];
     }];
     
 }

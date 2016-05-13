@@ -20,22 +20,17 @@
     [self dataHandle];
     [self initUI];
     //设置HUD的样式
-    [self setHUDStyle];
+  
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
-    [SVProgressHUD dismiss];
+    //[SVProgressHUD dismiss];
     [super viewWillDisappear:animated];
 }
 
 #pragma mark - 私有方法
 
-- (void)setHUDStyle {
-    [SVProgressHUD setFont:[UIFont systemFontOfSize:13]];
-    [SVProgressHUD setForegroundColor:[UIColor whiteColor]];
-    [SVProgressHUD setBackgroundColor:[UIColor colorWithRed:22/255.0 green:22/255.0 blue:22/255.0 alpha:0.7]];
-    [SVProgressHUD setRingThickness:1.5];
-}
+
 
 #pragma mark - 公共方法
 /**

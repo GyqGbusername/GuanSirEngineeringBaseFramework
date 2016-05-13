@@ -17,6 +17,9 @@
 
 - (void)initUI {
     [super initUI];
+    UIWebView *wv = [[UIWebView alloc] initWithFrame:gs_Screen_Frame];
+    [self.view addSubview:wv];
+    [wv loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://192.168.0.178/lll/mob"]]];
 }
 
 - (void)dataHandle {

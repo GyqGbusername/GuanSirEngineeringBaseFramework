@@ -74,7 +74,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "AwesomeMenu/AwesomeMenu/Images/icon-star@2x.png"
   install_resource "LCProgressHUD/LCProgressHUD/LCProgressHUD.bundle"
   install_resource "MJRefresh/MJRefresh/MJRefresh.bundle"
-  install_resource "SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "AwesomeMenu/AwesomeMenu/Images/bg-addbutton-highlighted.png"
@@ -93,7 +92,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "AwesomeMenu/AwesomeMenu/Images/icon-star@2x.png"
   install_resource "LCProgressHUD/LCProgressHUD/LCProgressHUD.bundle"
   install_resource "MJRefresh/MJRefresh/MJRefresh.bundle"
-  install_resource "SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
 fi
 
 mkdir -p "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

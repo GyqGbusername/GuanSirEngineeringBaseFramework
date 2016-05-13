@@ -79,12 +79,47 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SVProgressHUD.xcscheme</key>
+		<key>YYAsyncLayer.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>YYKit.xcscheme</key>
+		<key>YYCache.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YYCategories.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YYImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YYKeyboardManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YYModel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YYText.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YYWaterflowLayout.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YYWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -92,7 +127,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>28D97BD9DA3697E579F6E8C3D4BC345B</key>
+		<key>03604F0A49497D0196F4C686E9F94492</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1AE1C0CC2426B2FFAD12D9779D383914</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1CE7AB40057B5C8B72902FB39ABCDA59</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2FE2D3C82941395B713F37C64F00A0B2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>467E397447CA7B0CBAF992EC0CC1CB7B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -102,12 +157,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>73002FBC7784040536D642E827BC9F45</key>
+		<key>55B14F006D18194ACC12C60E59BE72A9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>78029C055B60817BE3171A03A92D0132</key>
+		<key>6DFA50206E1C6193A8C70826C97F04D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>73002FBC7784040536D642E827BC9F45</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -122,7 +182,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>9BC3AABD2C64CB5C7941860F0D4EA23C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>9EAB3E42EF957541E6C3C76D35FD008E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9EEDCFBEE645F92E1833F6F601E09C7C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -142,12 +212,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C92927D64753BB94FC5B4A2EB7FB2A8A</key>
+		<key>AF1B7213669FB8408B4CFBB28C958D69</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D1056DCCB6ECEEEE392E2876D71CCB4F</key>
+		<key>C92927D64753BB94FC5B4A2EB7FB2A8A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -157,22 +227,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>EBD3EE83999168BC1A6EC3AAFF74DABD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>EDBD7D72006DDADAEFD89C247C6694B4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F1650391FAE08F152D659A53A167AAAE</key>
+		<key>F2ECF604168C7B698CBB11885F18AA52</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>FD9CBEF84CF432D7DBA2CFFA35A8E595</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FF441E0C2CF00E72AD106E89EDD34A78</key>
 		<dict>
 			<key>primary</key>
 			<true/>
